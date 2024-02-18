@@ -1,0 +1,13 @@
+:root {
+  --link-color: #fff
+  --heading-font-family: "Raleway", sans-serif;
+  --text-font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.global-header {
+  background-color: ;
+}
