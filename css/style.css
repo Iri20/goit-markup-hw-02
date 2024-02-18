@@ -1,7 +1,14 @@
 :root {
-  --link-color: #fff
+  --link-color: #ffffff
+  --link-color-hover: 
   --heading-font-family: "Raleway", sans-serif;
   --text-font-family: "Roboto", sans-serif;
+}
+.logo: :before {
+ content: "WEB" ;
+ color: #4D5AE5 ;
+}
+
 }
 
 ul {
