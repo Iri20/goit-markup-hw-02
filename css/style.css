@@ -4,14 +4,61 @@
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: var(--heading-font-family);
   font-weight: 700;
+  color: #2e2f42;
 }
-
+h3 {
+  font-family: var(--heading-font-family);
+  font-weight: 500;
+  color: #2e2f42;
+}
+.hero-section {
+  background: #2e2f42;
+}
+.hero-title {
+  color: #fff;
+}
+.button-service {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  color: #fff;
+  cursor: pointer;
+}
+.all-button {
+  border: 1px solid #e7e9fc;
+border-radius: 4px;
+padding: 12px 24px;
+width: 116px;
+height: 48px;
+background: #f4f4fd;
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
+cursor: pointer;
+}
 .global-header {
-  background-color: #2e2f42;
+  background-color: #fff;
+}
+.logo::before {
+  content: "WEB";
+  color: #4d5ae5;
+}
+.info-page {
+  color: #434455;
+}
+.nav-list {
+  color: #2e2f42;
+}
+.p {
+  font-family: var(--heading-font-family);
+  font-weight: 400;
+  color: #434455;
+}
+.section-team {
+  background: #f4f4fd;
+}
+.footer-section {
+  background: #2e2f42;
 }
 
 ul {
