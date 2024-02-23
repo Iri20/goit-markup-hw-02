@@ -28,7 +28,7 @@ h3 {
 .hero-title {
   color: #fff;
 }
-.button-service {
+.button-service:hover {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   cursor: pointer;
@@ -47,8 +47,13 @@ letter-spacing: 0.04em;
 text-align: center;
 color: #4d5ae5;
 background: #f4f4fd;
+border: none;
 }
-.first-button{
+.all-button:hover{
+  color:  #fff; 
+  background: #404bbf;
+}
+.first-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -56,6 +61,9 @@ background: #f4f4fd;
   letter-spacing: 0.04em;
   text-align: center;
   color:#fff;
+  background: #404bbf;
+}
+.first-button:hover {
   background: #404bbf;
 }
 .global-header {
@@ -104,6 +112,9 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+.info-page:hover{
+  color: teal;
 }
 .nav-list {
   font-family: "Roboto", sans-serif;
